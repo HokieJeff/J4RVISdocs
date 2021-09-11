@@ -11,11 +11,17 @@ Various related commands and functionality are organized into plugins.  Plugins 
 The Automatic Shoutout Plugin will automatically shoutout streamers visiting the channel.
 
 #### Commands
-* `!so <streamer>` This method is intentially the same as the method used shoutout streamers.  When a streamer receives a shoutout, they'll be added to the automatic shoutout list.
-* `!solist` Lists out the streamers who will recieve automatic shoutouts.
-* `!sotest <streamer>`  
-* `!somsg`
-* `!sodelay`
+* `!so <streamer>` This command adds a streamer to the automatic shoutout list.  It is intentially the same as the method used shoutout streamers. 
+* `!solist` Lists out the streamers in the automatic shoutout list.
+* `!sotest <streamer>` Sends a test shoutout message.
+* `!somsg` Shows the current shoutout message.
+* `!somsg <message>` Sets the current shoutout message.
+   - `$name` The streamer's name.
+   - `$namelower` The streamer's name in lower case.
+   - `$game` The last game the streamer has played.
+* `!sodelay` Show the current delay set in seconds.  Automatic shoutouts can be delayed so that mods have a chance to personally shoutout a streamer.  If a mod sends the shoutout before the automatic shoutout is sent, then the automatic shoutout will be canceled.
+* `!sodelay <seconds>` Sets the delay value in seconds.  Values must be in the range of 0 to 60.
+* `!sointerval`
 * `!sointerval`
 * `!soenable`
 * `!sodisable`
