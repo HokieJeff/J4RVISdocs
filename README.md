@@ -4,7 +4,7 @@ J4RVISbot is an extensible Twitch bot offering streamers access to various usefu
 
 ## Plugins
 
-Various related commands and functionality are organized into plugins.  Plugins can be enabled and disabled as the streamer pleases.
+Various related commands and functionality are organized into plugins.  Each plugin can be enabled and disabled independently of each other.
 
 ### Automatic Shoutout Plugin
 
