@@ -32,4 +32,4 @@ The Automatic Shoutout Plugin will automatically shoutout streamers visiting the
 The Search Plugin allows users to search through the broadcaster's clips, returning the best match.
 
 #### Commands
-* `!search <search phrase>` Searches through the broadcaster's clips, returning the best match clip. 
+* `!search <search phrase>` Searches through the broadcaster's clips, returning the best match.  The search currently searches through roughly 1000 clips.  It works pretty well if you know the title of the clip you're searching for, but it's hit or miss for broad general searches.
